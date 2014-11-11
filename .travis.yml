@@ -1,0 +1,10 @@
+ language: scala
+ scala:
+   - "2.11.4"
+ jdk:
+   - oraclejdk7
+   - oraclejdk8
+   - openjdk7
+ branches:
+   except:
+     - /^wip-.*$/

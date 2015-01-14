@@ -11,7 +11,7 @@ object Common {
   def AkkaVersion = "2.3.6"
   def CrossScalaVersions = Seq("2.10.4", "2.11.4")
   def EmbeddedMongoVersion = "1.46.1"
-  def PluginVersion = "0.7.4"
+  def PluginVersion = "0.7.5"
   def SalatVersion = "1.9.9"
   def ScalaStmVersion = "0.7"
   def ScalaVersion = "2.11.4"

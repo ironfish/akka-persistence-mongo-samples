@@ -6,7 +6,7 @@ scalaVersion := Common.ScalaVersion
 
 crossScalaVersions := Common.CrossScalaVersions
 
-version := "0.3.0-SNAPSHOT"
+version := "0.3.1-SNAPSHOT"
 
 parallelExecution in Test := Common.ParallelExecutionInTest
 
@@ -22,7 +22,7 @@ resolvers += "Sonatype OSS Releases" at "https://oss.sonatype.org/content/reposi
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka"      %% "akka-persistence-experimental"    % Common.AkkaVersion             % "compile",
-  "com.github.ddevore"     %% "akka-persistence-mongo-casbah"    % Common.PluginVersion           % "compile",
+  "com.github.ironfish"    %% "akka-persistence-mongo-casbah"    % Common.PluginVersion           % "compile",
   "org.scalaz"             %% "scalaz-core"                      % Common.ScalazVersion           % "compile",
   "com.novus"              %% "salat"                            % Common.SalatVersion            % "compile",
   "org.scala-stm"          %% "scala-stm"                        % Common.ScalaStmVersion         % "compile",
